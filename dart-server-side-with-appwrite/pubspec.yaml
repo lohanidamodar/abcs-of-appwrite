@@ -12,3 +12,5 @@ environment:
 
 dev_dependencies:
   lints: ^1.0.0
+dependencies: 
+  dart_appwrite: ^4.0.2

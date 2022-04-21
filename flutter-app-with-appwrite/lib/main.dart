@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:appwrite/appwrite.dart';
 
+final client = Client();
 void main() {
+  client.setEndpoint('https://[]/v1');
+  client.setProject('projectId');
+  
   runApp(const MyApp());
 }
 
